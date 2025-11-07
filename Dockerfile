@@ -1,7 +1,7 @@
 # Base image
-FROM sillytavern/sillytavern:latest
+FROM ghcr.io/fengwenxuecsdn/jiuguan:main
 
-# Switch to root user to install tools are the filesystem
+# Switch to root user to install tools are th filesystem
 USER root
 
 # 1. Install 'gettext' and 'git'.
